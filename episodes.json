@@ -1,28 +1,146 @@
 {
   "_note": "Episode order and status for the Eliora channel. The daily task makes the first episode whose status is 'todo'. Statuses: todo, in_progress, ready (built, waiting for MG), published.",
   "episodes": [
-    {"n": 1, "story": "David and Goliath", "passage": "1 Samuel 17", "song": "Little Stone, Big God", "memory_line": "God is big, I am brave!", "status": "published", "youtube_title": "David and Goliath | Bible Story and Song for Kids | Little Stone, Big God | Eliora"},
-    {"n": 2, "story": "Noah's Ark", "passage": "Genesis 6-9", "song": "Two by Two", "memory_line": "God keeps His promises!", "status": "in_progress"},
-    {"n": 3, "story": "Daniel in the Lions' Den", "passage": "Daniel 6", "song": "Daniel Prayed", "status": "todo"},
-    {"n": 4, "story": "Jonah and the Big Fish", "passage": "Jonah 1-3", "song": "Jonah, Jonah, Turn Around", "status": "todo"},
-    {"n": 5, "story": "Creation", "passage": "Genesis 1-2", "song": "Day by Day God Made It", "status": "todo"},
-    {"n": 6, "story": "Baby Moses", "passage": "Exodus 2", "song": "Floating Basket", "status": "todo"},
-    {"n": 7, "story": "Jesus Calms the Storm", "passage": "Mark 4:35-41", "song": "Peace, Be Still", "status": "todo"},
-    {"n": 8, "story": "Feeding the 5,000", "passage": "John 6:1-14", "song": "Five Little Loaves", "status": "todo"},
-    {"n": 9, "story": "The Good Samaritan", "passage": "Luke 10:25-37", "song": "Be a Good Neighbor", "status": "todo"},
-    {"n": 10, "story": "Zacchaeus", "passage": "Luke 19:1-10", "song": "Come Down, Zacchaeus", "status": "todo"},
-    {"n": 11, "story": "Joseph and His Coat", "passage": "Genesis 37", "status": "todo"},
-    {"n": 12, "story": "Ruth and Naomi", "passage": "Ruth 1-4", "status": "todo"},
-    {"n": 13, "story": "Gideon", "passage": "Judges 6-7", "status": "todo"},
-    {"n": 14, "story": "Elijah and the Ravens", "passage": "1 Kings 17:1-6", "status": "todo"},
-    {"n": 15, "story": "Queen Esther", "passage": "Esther 2-8", "status": "todo"},
-    {"n": 16, "story": "The Lost Sheep", "passage": "Luke 15:3-7", "status": "todo"},
-    {"n": 17, "story": "The Prodigal Son", "passage": "Luke 15:11-32", "status": "todo"},
-    {"n": 18, "story": "Jesus Blesses the Children", "passage": "Mark 10:13-16", "status": "todo"},
-    {"n": 19, "story": "Paul's Shipwreck", "passage": "Acts 27", "status": "todo"}
+    {
+      "n": 1,
+      "story": "David and Goliath",
+      "passage": "1 Samuel 17",
+      "song": "Little Stone, Big God",
+      "memory_line": "God is big, I am brave!",
+      "status": "published",
+      "youtube_title": "David and Goliath | Bible Story and Song for Kids | Little Stone, Big God | Eliora"
+    },
+    {
+      "n": 2,
+      "story": "Noah's Ark",
+      "passage": "Genesis 6-9",
+      "song": "Two by Two",
+      "memory_line": "God keeps His promises!",
+      "status": "ready",
+      "youtube": "https://youtu.be/cyaZ50gEOcI",
+      "youtube_title": "Noah's Ark | Bible Story and Song for Kids | Two by Two | Eliora"
+    },
+    {
+      "n": 3,
+      "story": "Daniel in the Lions' Den",
+      "passage": "Daniel 6",
+      "song": "Daniel Prayed",
+      "status": "todo"
+    },
+    {
+      "n": 4,
+      "story": "Jonah and the Big Fish",
+      "passage": "Jonah 1-3",
+      "song": "Jonah, Jonah, Turn Around",
+      "status": "todo"
+    },
+    {
+      "n": 5,
+      "story": "Creation",
+      "passage": "Genesis 1-2",
+      "song": "Day by Day God Made It",
+      "status": "todo"
+    },
+    {
+      "n": 6,
+      "story": "Baby Moses",
+      "passage": "Exodus 2",
+      "song": "Floating Basket",
+      "status": "todo"
+    },
+    {
+      "n": 7,
+      "story": "Jesus Calms the Storm",
+      "passage": "Mark 4:35-41",
+      "song": "Peace, Be Still",
+      "status": "todo"
+    },
+    {
+      "n": 8,
+      "story": "Feeding the 5,000",
+      "passage": "John 6:1-14",
+      "song": "Five Little Loaves",
+      "status": "todo"
+    },
+    {
+      "n": 9,
+      "story": "The Good Samaritan",
+      "passage": "Luke 10:25-37",
+      "song": "Be a Good Neighbor",
+      "status": "todo"
+    },
+    {
+      "n": 10,
+      "story": "Zacchaeus",
+      "passage": "Luke 19:1-10",
+      "song": "Come Down, Zacchaeus",
+      "status": "todo"
+    },
+    {
+      "n": 11,
+      "story": "Joseph and His Coat",
+      "passage": "Genesis 37",
+      "status": "todo"
+    },
+    {
+      "n": 12,
+      "story": "Ruth and Naomi",
+      "passage": "Ruth 1-4",
+      "status": "todo"
+    },
+    {
+      "n": 13,
+      "story": "Gideon",
+      "passage": "Judges 6-7",
+      "status": "todo"
+    },
+    {
+      "n": 14,
+      "story": "Elijah and the Ravens",
+      "passage": "1 Kings 17:1-6",
+      "status": "todo"
+    },
+    {
+      "n": 15,
+      "story": "Queen Esther",
+      "passage": "Esther 2-8",
+      "status": "todo"
+    },
+    {
+      "n": 16,
+      "story": "The Lost Sheep",
+      "passage": "Luke 15:3-7",
+      "status": "todo"
+    },
+    {
+      "n": 17,
+      "story": "The Prodigal Son",
+      "passage": "Luke 15:11-32",
+      "status": "todo"
+    },
+    {
+      "n": 18,
+      "story": "Jesus Blesses the Children",
+      "passage": "Mark 10:13-16",
+      "status": "todo"
+    },
+    {
+      "n": 19,
+      "story": "Paul's Shipwreck",
+      "passage": "Acts 27",
+      "status": "todo"
+    }
   ],
   "seasonal": [
-    {"story": "The Birth of Jesus", "passage": "Luke 2:1-20", "window": "Dec 10 - Dec 24"},
-    {"story": "Jesus Is Alive! (Easter)", "passage": "Luke 24:1-12", "window": "Holy Week"}
+    {
+      "story": "The Birth of Jesus",
+      "passage": "Luke 2:1-20",
+      "window": "Dec 10 - Dec 24"
+    },
+    {
+      "story": "Jesus Is Alive! (Easter)",
+      "passage": "Luke 24:1-12",
+      "window": "Holy Week"
+    }
   ]
 }
