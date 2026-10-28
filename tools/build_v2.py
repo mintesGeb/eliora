@@ -105,21 +105,26 @@ def norm_video(src, out, vf_extra="", t=None):
 
 
 def make_bumper(tmp):
-    src = os.path.join(ASSETS, "bumper_porch.mp4"); a = os.path.join(tmp, "b_a.mp4"); br = os.path.join(tmp, "b_card.png")
-    brand_card(br)
+    """Dance (4.2 s) + warm logo screen (2.8 s) under one 7 s jingle (clip's own audio is dropped)."""
+    src = os.path.join(ASSETS, "bumper_porch.mp4"); a = os.path.join(tmp, "b_a.mp4")
+    logo = os.path.join(ASSETS, "logo_warm.jpg")
     run(["ffmpeg", "-y", "-i", src, "-vf", f"scale={W}:{H}:flags=lanczos,fps={FPS},format=yuv420p,fade=t=in:st=0:d=0.4",
-         "-af", "aresample=48000,aformat=channel_layouts=stereo,volume=0.8,afade=t=out:st=3.4:d=0.8", "-t", "4.2",
-         "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", a])
-    logo = os.path.join(ASSETS, "logo_screen.jpg")
-    if os.path.exists(logo): br = logo
-    b = os.path.join(tmp, "b_b.mp4"); still_clip(br, 2.8, b, fade=0.5, zoom=True)
-    return [a, b]
+         "-an", "-t", "4.2", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", a])
+    b = os.path.join(tmp, "b_b.mp4"); still_clip(logo, 2.8, b, fade=0.5, zoom=True)
+    v = os.path.join(tmp, "b_v.mp4")
+    lst = os.path.join(tmp, "b.txt"); open(lst, "w").write(f"file '{a}'\nfile '{b}'\n")
+    jingle = os.path.join(ASSETS, "jingle_intro.mp3"); out = os.path.join(tmp, "bumper.mp4")
+    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-i", jingle, "-map", "0:v", "-map", "1:a",
+         "-af", "aresample=48000,aformat=channel_layouts=stereo,afade=t=in:st=0:d=0.1,afade=t=out:st=5.6:d=1.4", "-t", "7.0",
+         "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", out])
+    return [out]
 
 
 def make_endloop(tmp, secs=8):
     src = os.path.join(ASSETS, "outro_goodbye.mp4"); out = os.path.join(tmp, "e_bye.mp4")
     run(["ffmpeg", "-y", "-i", src, "-vf", f"scale={W}:{H}:flags=lanczos,fps={FPS},format=yuv420p,fade=t=in:st=0:d=0.5,fade=t=out:st={secs-1.5}:d=1.5",
-         "-af", f"aresample=48000,aformat=channel_layouts=stereo,afade=t=in:st=0:d=0.5,afade=t=out:st={secs-1.5}:d=1.5", "-t", str(secs),
+         "-i", os.path.join(ASSETS, "jingle_outro.mp3"), "-map", "0:v", "-map", "1:a",
+         "-af", f"aresample=48000,aformat=channel_layouts=stereo,afade=t=in:st=0:d=0.3,afade=t=out:st={secs-1.8}:d=1.8", "-t", str(secs),
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", out])
     return out
 
