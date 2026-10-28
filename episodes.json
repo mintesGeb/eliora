@@ -8,7 +8,8 @@
       "song": "Little Stone, Big God",
       "memory_line": "God is big, I am brave!",
       "status": "published",
-      "youtube_title": "David and Goliath | Bible Story and Song for Kids | Little Stone, Big God | Eliora"
+      "youtube_title": "David and Goliath | Bible Story and Song for Kids | Little Stone, Big God | Eliora",
+      "youtube_song": "https://youtu.be/mcmlNX9wWd4"
     },
     {
       "n": 2,
@@ -36,8 +37,10 @@
       "story": "Jonah and the Big Fish",
       "passage": "Jonah 1-3",
       "song": "Jonah, Jonah, Turn Around",
-      "status": "in_progress",
-      "memory_line": "I'm sorry, God forgives me!"
+      "status": "published",
+      "memory_line": "I'm sorry, God forgives me!",
+      "youtube": "https://youtu.be/rnpuaAnSfDE",
+      "youtube_song": "https://youtu.be/rqCUZF8Qti4"
     },
     {
       "n": 5,
