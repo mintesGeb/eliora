@@ -19,7 +19,8 @@
       "memory_line": "God keeps His promises!",
       "status": "published",
       "youtube": "https://youtu.be/cyaZ50gEOcI",
-      "youtube_title": "Noah's Ark | Bible Story and Song for Kids | Two by Two | Eliora"
+      "youtube_title": "Noah's Ark | Bible Story and Song for Kids | Two by Two | Eliora",
+      "youtube_song": "https://youtu.be/aq-XPnyaAs4"
     },
     {
       "n": 3,
@@ -153,5 +154,6 @@
       "window": "Holy Week"
     }
   ],
-  "songs_playlist": "Eliora Sing-Along Songs"
+  "songs_playlist": "Eliora Sing-Along Songs",
+  "stories_playlist": "Eliora Bible Stories with Songs"
 }
