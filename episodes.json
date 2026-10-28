@@ -58,26 +58,29 @@
       "story": "Baby Moses",
       "passage": "Exodus 2",
       "song": "Floating Basket",
-      "status": "ready",
+      "status": "published",
       "memory_line": "God sees me!",
-      "note": "built; YouTube daily upload limit hit 2026-10-28 ~4:10 AM ET. Files: /home/claude/eliora/ep06/moses_up.mp4 and \"Floating Basket - Song - Eliora.mp4\""
+      "youtube": "https://youtu.be/59D6ZXvWkus",
+      "youtube_song": "https://youtu.be/kxRoAmm1dGg"
     },
     {
       "n": 7,
       "story": "Jesus Calms the Storm",
       "passage": "Mark 4:35-41",
       "song": "Peace, Be Still",
-      "status": "ready",
+      "status": "published",
       "memory_line": "Jesus is stronger than the storm!",
-      "note": "built; waiting on YouTube upload limit"
+      "youtube": "https://youtu.be/nhncIBHOrxg",
+      "youtube_song": "https://youtu.be/p_EWKaI8L2s"
     },
     {
       "n": 8,
       "story": "Feeding the 5,000",
       "passage": "John 6:1-14",
       "song": "Five Little Loaves",
-      "status": "in_progress",
-      "memory_line": "A little in Jesus' hands is a lot!"
+      "status": "ready",
+      "memory_line": "A little in Jesus' hands is a lot!",
+      "note": "built; upload pending (MG)"
     },
     {
       "n": 9,
