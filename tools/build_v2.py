@@ -110,18 +110,16 @@ def make_bumper(tmp):
     run(["ffmpeg", "-y", "-i", src, "-vf", f"scale={W}:{H}:flags=lanczos,fps={FPS},format=yuv420p,fade=t=in:st=0:d=0.4",
          "-af", "aresample=48000,aformat=channel_layouts=stereo,volume=0.8,afade=t=out:st=3.4:d=0.8", "-t", "4.2",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", a])
-    b = os.path.join(tmp, "b_b.mp4"); still_clip(br, 2.4, b, fade=0.5, zoom=False)
+    logo = os.path.join(ASSETS, "logo_screen.jpg")
+    if os.path.exists(logo): br = logo
+    b = os.path.join(tmp, "b_b.mp4"); still_clip(br, 2.8, b, fade=0.5, zoom=True)
     return [a, b]
 
 
-def make_endloop(tmp, secs=16):
-    src = os.path.join(ASSETS, "bumper_porch.mp4"); f = os.path.join(tmp, "e_f.mp4"); r = os.path.join(tmp, "e_r.mp4")
-    norm_video(src, f)
-    run(["ffmpeg", "-y", "-i", f, "-vf", "reverse", "-af", "areverse", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", r])
-    lst = os.path.join(tmp, "e.txt"); open(lst, "w").write("".join(f"file '{p}'\n" for p in [f, r, f, r]))
-    out = os.path.join(tmp, "e_loop.mp4")
-    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-t", str(secs),
-         "-vf", f"fade=t=in:st=0:d=0.5,fade=t=out:st={secs-1.5}:d=1.5", "-af", f"afade=t=in:st=0:d=0.5,afade=t=out:st={secs-1.5}:d=1.5",
+def make_endloop(tmp, secs=8):
+    src = os.path.join(ASSETS, "outro_goodbye.mp4"); out = os.path.join(tmp, "e_bye.mp4")
+    run(["ffmpeg", "-y", "-i", src, "-vf", f"scale={W}:{H}:flags=lanczos,fps={FPS},format=yuv420p,fade=t=in:st=0:d=0.5,fade=t=out:st={secs-1.5}:d=1.5",
+         "-af", f"aresample=48000,aformat=channel_layouts=stereo,afade=t=in:st=0:d=0.5,afade=t=out:st={secs-1.5}:d=1.5", "-t", str(secs),
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", out])
     return out
 
@@ -222,7 +220,9 @@ def main(cfg_path, bumper=True):
         clean = P("_main_clean.mp4"); n_len, s_len = dur(P(c["narration"])), dur(P(c["song"])); gap = 0.8
         pre = []
         if bumper: pre += make_bumper(tmp)
-        tcard = os.path.join(tmp, "title.png"); title_card(c, P(c["paragraph_scenes"][0][0]), tcard)
+        tcard = os.path.join(tmp, "title.png")
+        if c.get("title_art") and os.path.exists(P(c["title_art"])): tcard = P(c["title_art"])
+        else: title_card(c, P(c["paragraph_scenes"][0][0]), tcard)
         t_clip = os.path.join(tmp, "title.mp4"); still_clip(tcard, 3.6, t_clip); pre.append(t_clip)
         pre_len = sum(dur(p) for p in pre)
         # 2) lyrics (karaoke) over the song passes
