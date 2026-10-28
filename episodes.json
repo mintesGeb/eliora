@@ -25,10 +25,11 @@
       "story": "Daniel in the Lions' Den",
       "passage": "Daniel 6",
       "song": "Daniel Prayed",
-      "status": "ready",
+      "status": "published",
       "memory_line": "I can talk to God!",
       "youtube": "https://youtu.be/odF6I-7ST0I",
-      "youtube_title": "Daniel in the Lions' Den | Bible Story and Song for Kids | Daniel Prayed | Eliora"
+      "youtube_title": "Daniel in the Lions' Den | Bible Story and Song for Kids | Daniel Prayed | Eliora",
+      "youtube_song": "https://youtu.be/9ayTqCNYlDg"
     },
     {
       "n": 4,
@@ -148,5 +149,6 @@
       "passage": "Luke 24:1-12",
       "window": "Holy Week"
     }
-  ]
+  ],
+  "songs_playlist": "Eliora Sing-Along Songs"
 }
