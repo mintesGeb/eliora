@@ -122,8 +122,8 @@ def make_bumper(tmp):
 
 def make_endloop(tmp, secs=8):
     src = os.path.join(ASSETS, "outro_goodbye.mp4"); out = os.path.join(tmp, "e_bye.mp4")
-    run(["ffmpeg", "-y", "-i", src, "-vf", f"scale={W}:{H}:flags=lanczos,fps={FPS},format=yuv420p,fade=t=in:st=0:d=0.5,fade=t=out:st={secs-1.5}:d=1.5",
-         "-i", os.path.join(ASSETS, "jingle_outro.mp3"), "-map", "0:v", "-map", "1:a",
+    run(["ffmpeg", "-y", "-i", src, "-i", os.path.join(ASSETS, "jingle_outro.mp3"), "-map", "0:v", "-map", "1:a",
+         "-vf", f"scale={W}:{H}:flags=lanczos,fps={FPS},format=yuv420p,fade=t=in:st=0:d=0.5,fade=t=out:st={secs-1.5}:d=1.5",
          "-af", f"aresample=48000,aformat=channel_layouts=stereo,afade=t=in:st=0:d=0.3,afade=t=out:st={secs-1.8}:d=1.8", "-t", str(secs),
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", out])
     return out
