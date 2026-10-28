@@ -7,6 +7,7 @@ Config = same JSON as build_episode.py, plus optional: "lyrics": "lyrics.txt", "
 Usage: build_v2.py config.json [--no-bumper]
 """
 import json, os, re, subprocess, sys, tempfile, importlib.util
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import numpy as np
 
@@ -152,29 +153,11 @@ def parse_lyrics(path):
 
 
 def lyric_events(song, lyrics_path):
-    db = envelope(song); total = len(db) / 10
-    base = np.median(db[: 50]); on = next((i for i in range(10, len(db)) if db[i] > base + 7 and db[i:i + 10].mean() > base + 4), 0) / 10
-    end = total - 0.8
-    secs = parse_lyrics(lyrics_path); lines = []
-    for si, s in enumerate(secs):
-        for li, ln in enumerate(s): lines.append((ln, si, li == len(s) - 1))
-    w = []
-    for ln, si, last in lines:
-        w.append(sum(syl(x) for x in ln.split()) + (3 if last else 0))
-    span = end - on; tot = sum(w); t = on; bounds = [on]
-    for x in w: t += span * x / tot; bounds.append(t)
-    # snap interior boundaries to nearby energy dips
-    sm = np.convolve(db, np.ones(3) / 3, mode="same")
-    for i in range(1, len(bounds) - 1):
-        c = int(bounds[i] * 10); lo, hi = max(c - 9, 0), min(c + 10, len(sm))
-        bounds[i] = (lo + int(np.argmin(sm[lo:hi]))) / 10
-    for i in range(1, len(bounds)):
-        if bounds[i] < bounds[i - 1] + 0.8: bounds[i] = bounds[i - 1] + 0.8
-    ev = []
-    for i, (ln, si, last) in enumerate(lines):
-        s0, e0 = bounds[i], bounds[i + 1] - (0.15 if not last else 0.0)
-        ev.append((s0, e0, ln))
-    return ev, on
+    import lyric_align
+    secs = parse_lyrics(lyrics_path)
+    times = lyric_align.fit_sections(song, secs)
+    lines = [ln for s in secs for ln in s]
+    return [(a, b, ln) for (a, b), ln in zip(times, lines)], times[0][0]
 
 
 def ass_time(t):
