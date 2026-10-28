@@ -25,28 +25,34 @@
       "story": "Daniel in the Lions' Den",
       "passage": "Daniel 6",
       "song": "Daniel Prayed",
-      "status": "in_progress"
+      "status": "ready",
+      "memory_line": "I can talk to God!",
+      "youtube": "https://youtu.be/odF6I-7ST0I",
+      "youtube_title": "Daniel in the Lions' Den | Bible Story and Song for Kids | Daniel Prayed | Eliora"
     },
     {
       "n": 4,
       "story": "Jonah and the Big Fish",
       "passage": "Jonah 1-3",
       "song": "Jonah, Jonah, Turn Around",
-      "status": "in_progress"
+      "status": "in_progress",
+      "memory_line": "I'm sorry, God forgives me!"
     },
     {
       "n": 5,
       "story": "Creation",
       "passage": "Genesis 1-2",
       "song": "Day by Day God Made It",
-      "status": "in_progress"
+      "status": "in_progress",
+      "memory_line": "God made me, and God loves me!"
     },
     {
       "n": 6,
       "story": "Baby Moses",
       "passage": "Exodus 2",
       "song": "Floating Basket",
-      "status": "in_progress"
+      "status": "in_progress",
+      "memory_line": "God sees me!"
     },
     {
       "n": 7,
