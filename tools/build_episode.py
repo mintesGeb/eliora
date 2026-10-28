@@ -126,7 +126,8 @@ def main(cfg_path):
              "-c:a", "aac", "-b:a", "192k", audio])
 
         box = "box=1:boxcolor=0x00000066:boxborderw=26"
-        t = [f"drawtext=fontfile={FONT}:text='{esc(c['title'])}':fontsize=92:fontcolor=white:x=(w-tw)/2:y=h*0.08:{box}:enable='lt(t,5)'",
+        clean = os.environ.get("ELIORA_CLEAN")
+        t = [] if clean else [f"drawtext=fontfile={FONT}:text='{esc(c['title'])}':fontsize=92:fontcolor=white:x=(w-tw)/2:y=h*0.08:{box}:enable='lt(t,5)'",
              f"drawtext=fontfile={FONT}:text='{esc(c['channel'])}':fontsize=40:fontcolor=white@0.85:x=w-tw-48:y=h-th-40:shadowcolor=black@0.5:shadowx=2:shadowy=2"]
         if c.get("subtitle"):
             t.append(f"drawtext=fontfile={FONT}:text='{esc(c['subtitle'])}':fontsize=48:fontcolor=white:x=(w-tw)/2:y=h*0.08+130:{box}:enable='lt(t,5)'")
@@ -136,6 +137,7 @@ def main(cfg_path):
             t.append(f"drawtext=fontfile={FONT}:text='Sing along with Eli and Pip!':fontsize=64:fontcolor=white:x=(w-tw)/2:y=h*0.08:{box}:enable='between(t,{s2:.2f},{s2+6:.2f})'")
         if c.get("end_text"):
             t.append(f"drawtext=fontfile={FONT}:text='{esc(c['end_text'])}':fontsize=52:fontcolor=white:x=(w-tw)/2:y=h*0.08:{box}:enable='gte(t,{total-8:.2f})'")
+        if clean: t = []
         t.append(f"fade=t=in:st=0:d=1,fade=t=out:st={total-1.5:.2f}:d=1.5")
         run(["ffmpeg", "-y", "-i", video, "-i", audio, "-filter_complex", "[0:v]" + ",".join(t) + "[v]",
              "-map", "[v]", "-map", "1:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",
