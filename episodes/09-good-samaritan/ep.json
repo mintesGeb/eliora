@@ -1,0 +1,94 @@
+{
+ "title": "Be a Good Neighbor",
+ "subtitle": "The Good Samaritan",
+ "channel": "Eliora",
+ "narration": "narration.wav",
+ "paragraph_weights": [
+  45,
+  44,
+  39,
+  28,
+  34,
+  29,
+  26,
+  28,
+  33,
+  32,
+  34,
+  25
+ ],
+ "paragraph_scenes": [
+  [
+   "scenes/s01.jpg",
+   "scenes/s02.jpg"
+  ],
+  [
+   "scenes/s03.jpg",
+   "scenes/s04.jpg"
+  ],
+  [
+   "scenes/s05.jpg",
+   "scenes/s06.jpg"
+  ],
+  [
+   "scenes/s07.jpg",
+   "scenes/s08.jpg"
+  ],
+  [
+   "scenes/s09.jpg",
+   "scenes/s10.jpg"
+  ],
+  [
+   "scenes/s11.jpg",
+   "scenes/s12.jpg"
+  ],
+  [
+   "scenes/s13.jpg",
+   "scenes/s14.jpg"
+  ],
+  [
+   "scenes/s15.jpg",
+   "scenes/s16.jpg"
+  ],
+  [
+   "scenes/s17.jpg",
+   "scenes/s18.jpg"
+  ],
+  [
+   "scenes/s19.jpg",
+   "scenes/s20.jpg"
+  ],
+  [
+   "scenes/s21.jpg",
+   "scenes/s22.jpg"
+  ],
+  [
+   "scenes/s23.jpg",
+   "scenes/s24.jpg"
+  ]
+ ],
+ "song": "song.wav",
+ "song_scenes": [
+  "scenes/s24.jpg",
+  "scenes/s23.jpg",
+  "scenes/s01.jpg",
+  "scenes/s02.jpg",
+  "scenes/s03.jpg",
+  "scenes/s05.jpg",
+  "scenes/s12.jpg",
+  "scenes/s13.jpg",
+  "scenes/s15.jpg",
+  "scenes/s16.jpg",
+  "scenes/s17.jpg",
+  "scenes/s18.jpg",
+  "scenes/s21.jpg",
+  "scenes/s22.jpg",
+  "scenes/s14.jpg"
+ ],
+ "song_repeats": 2,
+ "lyrics": "lyrics.txt",
+ "story_text": "narration.txt",
+ "title_art": "title_art.jpg",
+ "end_text": "",
+ "out": "The Good Samaritan - Be a Good Neighbor - Eliora.mp4"
+}
