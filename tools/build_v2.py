@@ -227,7 +227,8 @@ def main(cfg_path, bumper=True):
         if bumper: pre += make_bumper(tmp)
         tcard = os.path.join(tmp, "title.png")
         if c.get("title_art") and os.path.exists(P(c["title_art"])): tcard = P(c["title_art"])
-        else: title_card(c, P(c["paragraph_scenes"][0][0]), tcard)
+        elif os.environ.get("ELIORA_ALLOW_TEMPLATE_TITLE"): title_card(c, P(c["paragraph_scenes"][0][0]), tcard)
+        else: sys.exit("STOP: ep.json needs a title_art image (Krea-made scene with the title lettered in; see README 'Title art'). The plain template title card is not allowed.")
         t_clip = os.path.join(tmp, "title.mp4"); still_clip(tcard, 3.6, t_clip); pre.append(t_clip)
         pre_len = sum(dur(p) for p in pre)
         # 2) lyrics (karaoke) over the song passes
