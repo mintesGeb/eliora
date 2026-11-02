@@ -107,19 +107,25 @@
       "n": 11,
       "story": "Joseph and His Coat",
       "passage": "Genesis 37",
-      "status": "prepped",
+      "status": "ready",
       "song": "God Was With Joseph",
       "memory_line": "God is with me always!",
-      "folder": "episodes/11-joseph-and-his-coat"
+      "folder": "episodes/11-joseph-and-his-coat",
+      "youtube": "https://youtu.be/XxPcCABNsHQ",
+      "youtube_song": "https://youtu.be/hEVZJjnmCJg",
+      "youtube_title": "Joseph and His Coat 🧥 Bible Story for Kids with Song | God Is With Me | Eliora"
     },
     {
       "n": 12,
       "story": "Ruth and Naomi",
       "passage": "Ruth 1-4",
-      "status": "prepped",
+      "status": "ready",
       "song": "Stay Close, Ruth and Naomi",
       "memory_line": "God never leaves me!",
-      "folder": "episodes/12-ruth-and-naomi"
+      "folder": "episodes/12-ruth-and-naomi",
+      "youtube": "https://youtu.be/Dqpk9eXUvoM",
+      "youtube_song": "https://youtu.be/yfoo2v0LEPI",
+      "youtube_title": "Ruth and Naomi 💛 Bible Story for Kids with Song | God Never Leaves Me | Eliora"
     },
     {
       "n": 13,
