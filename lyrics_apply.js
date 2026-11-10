@@ -1,0 +1,5 @@
+(async()=>{const vid=location.pathname.split('/')[2];const j=await (await fetch('https://raw.githubusercontent.com/mintesGeb/eliora/51c34f96a4db3676e4bc59a34b0b4283f61d766a/lyrics_desc.json')).json();const ep=Object.values(j).find(e=>e.ids.includes(vid));let tb;for(let i=0;i<40;i++){tb=[...document.querySelectorAll('#textbox[contenteditable="true"]')][1];if(tb&&tb.innerText.length>20)break;await new Promise(r=>setTimeout(r,500));}
+if(!ep||!tb)return 'ERR '+vid;if(tb.innerText.includes('Sing along with the lyrics'))return 'already '+vid;
+tb.focus();const s=getSelection();s.selectAllChildren(tb);s.collapseToEnd();document.execCommand('insertText',false,'\n\n'+ep.lyrics);await new Promise(r=>setTimeout(r,800));const sv=document.querySelector('#save');sv.click();
+for(let i=0;i<60;i++){await new Promise(r=>setTimeout(r,500));if(sv.disabled||sv.hasAttribute('disabled'))break;}
+await new Promise(r=>setTimeout(r,1500));return 'saved '+vid+' disabled='+(sv.disabled||sv.hasAttribute('disabled'));})()
