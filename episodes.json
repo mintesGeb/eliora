@@ -113,7 +113,7 @@
    "folder": "episodes/11-joseph-and-his-coat",
    "youtube": "https://youtu.be/XxPcCABNsHQ",
    "youtube_song": "https://youtu.be/hEVZJjnmCJg",
-   "youtube_title": "Joseph and His Coat 🧥 Bible Story for Kids with Song | God Is With Me | Eliora"
+   "youtube_title": "Joseph and His Coat \ud83e\udde5 Bible Story for Kids with Song | God Is With Me | Eliora"
   },
   {
    "n": 12,
@@ -125,7 +125,7 @@
    "folder": "episodes/12-ruth-and-naomi",
    "youtube": "https://youtu.be/Dqpk9eXUvoM",
    "youtube_song": "https://youtu.be/yfoo2v0LEPI",
-   "youtube_title": "Ruth and Naomi 💛 Bible Story for Kids with Song | God Never Leaves Me | Eliora"
+   "youtube_title": "Ruth and Naomi \ud83d\udc9b Bible Story for Kids with Song | God Never Leaves Me | Eliora"
   },
   {
    "n": 13,
@@ -230,9 +230,11 @@
    "passage": "Exodus 14:21-31; 15:20-21",
    "song": "Shout for Joy",
    "memory_line": "Thank You, God, I shout for joy!",
-   "status": "prepped",
+   "status": "built-private",
    "season": "thanksgiving",
-   "target_publish": "Nov 24"
+   "target_publish": "Nov 24",
+   "story_id": "T2lzVk8fwYU",
+   "song_id": "VMS2uiQ1N50"
   },
   {
    "n": 25,
