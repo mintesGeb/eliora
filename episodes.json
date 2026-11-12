@@ -255,6 +255,32 @@
    "status": "prepped",
    "season": "christmas",
    "target_publish": "Dec 17"
+  },
+  {
+   "n": 27,
+   "story": "The Shepherds and the Angels",
+   "passage": "Luke 2:8-20",
+   "song": "Go Tell It Gladly",
+   "memory_line": "Good news is for sharing!",
+   "status": "prepped",
+   "season": "christmas",
+   "target_publish": "Dec 24"
+  },
+  {
+   "n": 28,
+   "story": "Joshua and the Walls of Jericho",
+   "passage": "Joshua 6",
+   "song": "March Around the Wall",
+   "memory_line": "Trust God and do what He says!",
+   "status": "prepped"
+  },
+  {
+   "n": 29,
+   "story": "Moses and the Burning Bush",
+   "passage": "Exodus 3-4",
+   "song": "God Is With Me",
+   "memory_line": "God is always with me!",
+   "status": "prepped"
   }
  ],
  "seasonal": [
