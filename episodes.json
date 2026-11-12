@@ -281,6 +281,36 @@
    "song": "God Is With Me",
    "memory_line": "God is always with me!",
    "status": "prepped"
+  },
+  {
+   "n": 30,
+   "story": "God's Best Gift (Christmas is about Jesus)",
+   "passage": "John 3:16; Luke 2",
+   "song": "God's Best Gift",
+   "memory_line": "Jesus is God's best gift!",
+   "status": "prepped",
+   "season": "christmas",
+   "target_publish": "Dec 24-25"
+  },
+  {
+   "n": 31,
+   "story": "Zechariah, Elizabeth and baby John",
+   "passage": "Luke 1:5-25, 57-66",
+   "song": "God's Perfect Time",
+   "memory_line": "God keeps His promises in His perfect time!",
+   "status": "prepped",
+   "season": "advent",
+   "target_publish": "Nov 29"
+  },
+  {
+   "n": 32,
+   "story": "Joseph's Dream",
+   "passage": "Matthew 1:18-25",
+   "song": "God With Us",
+   "memory_line": "Jesus is Immanuel, God with us!",
+   "status": "prepped",
+   "season": "advent",
+   "target_publish": "Dec 6"
   }
  ],
  "seasonal": [
