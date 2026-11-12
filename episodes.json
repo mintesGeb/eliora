@@ -223,6 +223,36 @@
    "status": "prepped",
    "season": "christmas",
    "target_publish": "Dec 10"
+  },
+  {
+   "n": 24,
+   "story": "Miriam's Thank-You Dance",
+   "passage": "Exodus 14:21-31; 15:20-21",
+   "song": "Shout for Joy",
+   "memory_line": "Thank You, God, I shout for joy!",
+   "status": "prepped",
+   "season": "thanksgiving",
+   "target_publish": "Nov 24"
+  },
+  {
+   "n": 25,
+   "story": "An Angel Visits Mary",
+   "passage": "Luke 1:26-45",
+   "song": "Yes, Mary Said Yes",
+   "memory_line": "Nothing is too hard for God!",
+   "status": "prepped",
+   "season": "advent",
+   "target_publish": "Dec 3"
+  },
+  {
+   "n": 26,
+   "story": "The Wise Men Follow the Star",
+   "passage": "Matthew 2:1-12",
+   "song": "Follow the Star",
+   "memory_line": "Jesus is the best gift of all!",
+   "status": "prepped",
+   "season": "christmas",
+   "target_publish": "Dec 17"
   }
  ],
  "seasonal": [
