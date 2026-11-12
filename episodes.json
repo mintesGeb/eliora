@@ -1,232 +1,242 @@
 {
-  "_note": "Episode order and status for the Eliora channel. The daily task makes the first episode whose status is 'todo'. Statuses: todo, in_progress, ready (built, waiting for MG), published.",
-  "episodes": [
-    {
-      "n": 1,
-      "story": "David and Goliath",
-      "passage": "1 Samuel 17",
-      "song": "Little Stone, Big God",
-      "memory_line": "God is big, I am brave!",
-      "status": "published",
-      "youtube_title": "David and Goliath | Bible Story and Song for Kids | Little Stone, Big God | Eliora",
-      "youtube_song": "https://youtu.be/mcmlNX9wWd4"
-    },
-    {
-      "n": 2,
-      "story": "Noah's Ark",
-      "passage": "Genesis 6-9",
-      "song": "Two by Two",
-      "memory_line": "God keeps His promises!",
-      "status": "published",
-      "youtube": "https://youtu.be/cyaZ50gEOcI",
-      "youtube_title": "Noah's Ark | Bible Story and Song for Kids | Two by Two | Eliora",
-      "youtube_song": "https://youtu.be/aq-XPnyaAs4"
-    },
-    {
-      "n": 3,
-      "story": "Daniel in the Lions' Den",
-      "passage": "Daniel 6",
-      "song": "Daniel Prayed",
-      "status": "published",
-      "memory_line": "I can talk to God!",
-      "youtube": "https://youtu.be/odF6I-7ST0I",
-      "youtube_title": "Daniel in the Lions' Den | Bible Story and Song for Kids | Daniel Prayed | Eliora",
-      "youtube_song": "https://youtu.be/9ayTqCNYlDg"
-    },
-    {
-      "n": 4,
-      "story": "Jonah and the Big Fish",
-      "passage": "Jonah 1-3",
-      "song": "Jonah, Jonah, Turn Around",
-      "status": "published",
-      "memory_line": "I'm sorry, God forgives me!",
-      "youtube": "https://youtu.be/rnpuaAnSfDE",
-      "youtube_song": "https://youtu.be/rqCUZF8Qti4"
-    },
-    {
-      "n": 5,
-      "story": "Creation",
-      "passage": "Genesis 1-2",
-      "song": "Day by Day God Made It",
-      "status": "published",
-      "memory_line": "God made me, and God loves me!",
-      "youtube": "https://youtu.be/0ly9c1YGwDw",
-      "youtube_song": "https://youtu.be/98CDkeHXnVs"
-    },
-    {
-      "n": 6,
-      "story": "Baby Moses",
-      "passage": "Exodus 2",
-      "song": "Floating Basket",
-      "status": "published",
-      "memory_line": "God sees me!",
-      "youtube": "https://youtu.be/59D6ZXvWkus",
-      "youtube_song": "https://youtu.be/kxRoAmm1dGg"
-    },
-    {
-      "n": 7,
-      "story": "Jesus Calms the Storm",
-      "passage": "Mark 4:35-41",
-      "song": "Peace, Be Still",
-      "status": "published",
-      "memory_line": "Jesus is stronger than the storm!",
-      "youtube": "https://youtu.be/nhncIBHOrxg",
-      "youtube_song": "https://youtu.be/p_EWKaI8L2s"
-    },
-    {
-      "n": 8,
-      "story": "Feeding the 5,000",
-      "passage": "John 6:1-14",
-      "song": "Five Little Loaves",
-      "status": "published",
-      "memory_line": "A little in Jesus' hands is a lot!",
-      "youtube": "https://youtu.be/JgejfeVEVAk",
-      "youtube_song": "https://youtu.be/gRQKS7ANLoA"
-    },
-    {
-      "n": 9,
-      "story": "The Good Samaritan",
-      "passage": "Luke 10:25-37",
-      "song": "Be a Good Neighbor",
-      "status": "published",
-      "memory_line": "Be kind to everyone like Jesus!",
-      "youtube": "https://youtu.be/6ckx8TPFbjY",
-      "youtube_song": "https://youtu.be/vXVjF7euVB0"
-    },
-    {
-      "n": 10,
-      "story": "Zacchaeus",
-      "passage": "Luke 19:1-10",
-      "song": "Come Down, Zacchaeus",
-      "status": "published",
-      "memory_line": "Jesus sees me and loves me!",
-      "youtube": "https://youtu.be/m57eHg3RSdU",
-      "youtube_song": "https://youtu.be/aVwbcCf5YCo"
-    },
-    {
-      "n": 11,
-      "story": "Joseph and His Coat",
-      "passage": "Genesis 37",
-      "status": "published",
-      "song": "God Was With Joseph",
-      "memory_line": "God is with me always!",
-      "folder": "episodes/11-joseph-and-his-coat",
-      "youtube": "https://youtu.be/XxPcCABNsHQ",
-      "youtube_song": "https://youtu.be/hEVZJjnmCJg",
-      "youtube_title": "Joseph and His Coat 🧥 Bible Story for Kids with Song | God Is With Me | Eliora"
-    },
-    {
-      "n": 12,
-      "story": "Ruth and Naomi",
-      "passage": "Ruth 1-4",
-      "status": "published",
-      "song": "Stay Close, Ruth and Naomi",
-      "memory_line": "God never leaves me!",
-      "folder": "episodes/12-ruth-and-naomi",
-      "youtube": "https://youtu.be/Dqpk9eXUvoM",
-      "youtube_song": "https://youtu.be/yfoo2v0LEPI",
-      "youtube_title": "Ruth and Naomi 💛 Bible Story for Kids with Song | God Never Leaves Me | Eliora"
-    },
-    {
-      "n": 13,
-      "story": "Gideon",
-      "passage": "Judges 6-7",
-      "status": "published",
-      "song": "Trumpets and Torches",
-      "memory_line": "When I am small, God is strong!",
-      "folder": "episodes/13-gideon",
-      "youtube": "oBZid07rJQY",
-      "youtube_song": "Q6Ztit-yLVw"
-    },
-    {
-      "n": 14,
-      "story": "Elijah and the Ravens",
-      "passage": "1 Kings 17:1-6",
-      "status": "published",
-      "song": "Ravens Bring Bread",
-      "memory_line": "God takes care of me!",
-      "folder": "episodes/14-elijah-and-the-ravens",
-      "youtube": "XH7gRYvDphY",
-      "youtube_song": "w1_iMoPStUc"
-    },
-    {
-      "n": 15,
-      "story": "Queen Esther",
-      "passage": "Esther 2-8",
-      "status": "published",
-      "youtube": "9C3qd5NDGMg",
-      "youtube_song": "SA-RWJaPQQI"
-    },
-    {
-      "n": 16,
-      "story": "The Lost Sheep",
-      "passage": "Luke 15:3-7",
-      "status": "published",
-      "youtube": "k00xTi33s1w",
-      "youtube_song": "uwiodd4cdIY"
-    },
-    {
-      "n": 17,
-      "story": "The Prodigal Son",
-      "passage": "Luke 15:11-32",
-      "status": "published",
-      "youtube": "DGxJ6T91ugI",
-      "youtube_song": "PjsJBDfuGYk"
-    },
-    {
-      "n": 18,
-      "story": "Jesus Blesses the Children",
-      "passage": "Mark 10:13-16",
-      "status": "ready",
-      "youtube": "fwz2yvDhAns",
-      "youtube_song": "kIoiDIt5g4M"
-    },
-    {
-      "n": 19,
-      "story": "Paul's Shipwreck",
-      "passage": "Acts 27",
-      "status": "ready",
-      "youtube": "BVjar7Kvrrw",
-      "youtube_song": "ucdqVpXp5OU"
-    },
-    {
-      "n": 20,
-      "story": "Blind Bartimaeus",
-      "passage": "Mark 10:46-52",
-      "status": "ready",
-      "youtube_song": "0ezrigxpjtc",
-      "youtube": "7OQZwuE3BZY"
-    },
-    {
-      "n": 21,
-      "story": "Ten Thankful Friends",
-      "passage": "Luke 17:11-19",
-      "status": "ready",
-      "youtube": "QXDuGfbwiWI",
-      "youtube_song": "40I7UswO25k"
-    },
-    {
-      "n": 22,
-      "story": "Jesus Walks on Water",
-      "passage": "Matthew 14:22-33",
-      "status": "prepped",
-      "song": "Keep My Eyes on Jesus",
-      "memory_line": "I keep my eyes on Jesus!",
-      "folder": "episodes/22-jesus-walks-on-water"
-    }
-  ],
-  "seasonal": [
-    {
-      "story": "The Birth of Jesus",
-      "passage": "Luke 2:1-20",
-      "window": "Dec 10 - Dec 24"
-    },
-    {
-      "story": "Jesus Is Alive! (Easter)",
-      "passage": "Luke 24:1-12",
-      "window": "Holy Week"
-    }
-  ],
-  "songs_playlist": "Eliora Sing-Along Songs",
-  "stories_playlist": "Eliora Bible Stories with Songs"
+ "_note": "Episode order and status for the Eliora channel. The daily task makes the first episode whose status is 'todo'. Statuses: todo, in_progress, ready (built, waiting for MG), published.",
+ "episodes": [
+  {
+   "n": 1,
+   "story": "David and Goliath",
+   "passage": "1 Samuel 17",
+   "song": "Little Stone, Big God",
+   "memory_line": "God is big, I am brave!",
+   "status": "published",
+   "youtube_title": "David and Goliath | Bible Story and Song for Kids | Little Stone, Big God | Eliora",
+   "youtube_song": "https://youtu.be/mcmlNX9wWd4"
+  },
+  {
+   "n": 2,
+   "story": "Noah's Ark",
+   "passage": "Genesis 6-9",
+   "song": "Two by Two",
+   "memory_line": "God keeps His promises!",
+   "status": "published",
+   "youtube": "https://youtu.be/cyaZ50gEOcI",
+   "youtube_title": "Noah's Ark | Bible Story and Song for Kids | Two by Two | Eliora",
+   "youtube_song": "https://youtu.be/aq-XPnyaAs4"
+  },
+  {
+   "n": 3,
+   "story": "Daniel in the Lions' Den",
+   "passage": "Daniel 6",
+   "song": "Daniel Prayed",
+   "status": "published",
+   "memory_line": "I can talk to God!",
+   "youtube": "https://youtu.be/odF6I-7ST0I",
+   "youtube_title": "Daniel in the Lions' Den | Bible Story and Song for Kids | Daniel Prayed | Eliora",
+   "youtube_song": "https://youtu.be/9ayTqCNYlDg"
+  },
+  {
+   "n": 4,
+   "story": "Jonah and the Big Fish",
+   "passage": "Jonah 1-3",
+   "song": "Jonah, Jonah, Turn Around",
+   "status": "published",
+   "memory_line": "I'm sorry, God forgives me!",
+   "youtube": "https://youtu.be/rnpuaAnSfDE",
+   "youtube_song": "https://youtu.be/rqCUZF8Qti4"
+  },
+  {
+   "n": 5,
+   "story": "Creation",
+   "passage": "Genesis 1-2",
+   "song": "Day by Day God Made It",
+   "status": "published",
+   "memory_line": "God made me, and God loves me!",
+   "youtube": "https://youtu.be/0ly9c1YGwDw",
+   "youtube_song": "https://youtu.be/98CDkeHXnVs"
+  },
+  {
+   "n": 6,
+   "story": "Baby Moses",
+   "passage": "Exodus 2",
+   "song": "Floating Basket",
+   "status": "published",
+   "memory_line": "God sees me!",
+   "youtube": "https://youtu.be/59D6ZXvWkus",
+   "youtube_song": "https://youtu.be/kxRoAmm1dGg"
+  },
+  {
+   "n": 7,
+   "story": "Jesus Calms the Storm",
+   "passage": "Mark 4:35-41",
+   "song": "Peace, Be Still",
+   "status": "published",
+   "memory_line": "Jesus is stronger than the storm!",
+   "youtube": "https://youtu.be/nhncIBHOrxg",
+   "youtube_song": "https://youtu.be/p_EWKaI8L2s"
+  },
+  {
+   "n": 8,
+   "story": "Feeding the 5,000",
+   "passage": "John 6:1-14",
+   "song": "Five Little Loaves",
+   "status": "published",
+   "memory_line": "A little in Jesus' hands is a lot!",
+   "youtube": "https://youtu.be/JgejfeVEVAk",
+   "youtube_song": "https://youtu.be/gRQKS7ANLoA"
+  },
+  {
+   "n": 9,
+   "story": "The Good Samaritan",
+   "passage": "Luke 10:25-37",
+   "song": "Be a Good Neighbor",
+   "status": "published",
+   "memory_line": "Be kind to everyone like Jesus!",
+   "youtube": "https://youtu.be/6ckx8TPFbjY",
+   "youtube_song": "https://youtu.be/vXVjF7euVB0"
+  },
+  {
+   "n": 10,
+   "story": "Zacchaeus",
+   "passage": "Luke 19:1-10",
+   "song": "Come Down, Zacchaeus",
+   "status": "published",
+   "memory_line": "Jesus sees me and loves me!",
+   "youtube": "https://youtu.be/m57eHg3RSdU",
+   "youtube_song": "https://youtu.be/aVwbcCf5YCo"
+  },
+  {
+   "n": 11,
+   "story": "Joseph and His Coat",
+   "passage": "Genesis 37",
+   "status": "published",
+   "song": "God Was With Joseph",
+   "memory_line": "God is with me always!",
+   "folder": "episodes/11-joseph-and-his-coat",
+   "youtube": "https://youtu.be/XxPcCABNsHQ",
+   "youtube_song": "https://youtu.be/hEVZJjnmCJg",
+   "youtube_title": "Joseph and His Coat 🧥 Bible Story for Kids with Song | God Is With Me | Eliora"
+  },
+  {
+   "n": 12,
+   "story": "Ruth and Naomi",
+   "passage": "Ruth 1-4",
+   "status": "published",
+   "song": "Stay Close, Ruth and Naomi",
+   "memory_line": "God never leaves me!",
+   "folder": "episodes/12-ruth-and-naomi",
+   "youtube": "https://youtu.be/Dqpk9eXUvoM",
+   "youtube_song": "https://youtu.be/yfoo2v0LEPI",
+   "youtube_title": "Ruth and Naomi 💛 Bible Story for Kids with Song | God Never Leaves Me | Eliora"
+  },
+  {
+   "n": 13,
+   "story": "Gideon",
+   "passage": "Judges 6-7",
+   "status": "published",
+   "song": "Trumpets and Torches",
+   "memory_line": "When I am small, God is strong!",
+   "folder": "episodes/13-gideon",
+   "youtube": "oBZid07rJQY",
+   "youtube_song": "Q6Ztit-yLVw"
+  },
+  {
+   "n": 14,
+   "story": "Elijah and the Ravens",
+   "passage": "1 Kings 17:1-6",
+   "status": "published",
+   "song": "Ravens Bring Bread",
+   "memory_line": "God takes care of me!",
+   "folder": "episodes/14-elijah-and-the-ravens",
+   "youtube": "XH7gRYvDphY",
+   "youtube_song": "w1_iMoPStUc"
+  },
+  {
+   "n": 15,
+   "story": "Queen Esther",
+   "passage": "Esther 2-8",
+   "status": "published",
+   "youtube": "9C3qd5NDGMg",
+   "youtube_song": "SA-RWJaPQQI"
+  },
+  {
+   "n": 16,
+   "story": "The Lost Sheep",
+   "passage": "Luke 15:3-7",
+   "status": "published",
+   "youtube": "k00xTi33s1w",
+   "youtube_song": "uwiodd4cdIY"
+  },
+  {
+   "n": 17,
+   "story": "The Prodigal Son",
+   "passage": "Luke 15:11-32",
+   "status": "published",
+   "youtube": "DGxJ6T91ugI",
+   "youtube_song": "PjsJBDfuGYk"
+  },
+  {
+   "n": 18,
+   "story": "Jesus Blesses the Children",
+   "passage": "Mark 10:13-16",
+   "status": "ready",
+   "youtube": "fwz2yvDhAns",
+   "youtube_song": "kIoiDIt5g4M"
+  },
+  {
+   "n": 19,
+   "story": "Paul's Shipwreck",
+   "passage": "Acts 27",
+   "status": "ready",
+   "youtube": "BVjar7Kvrrw",
+   "youtube_song": "ucdqVpXp5OU"
+  },
+  {
+   "n": 20,
+   "story": "Blind Bartimaeus",
+   "passage": "Mark 10:46-52",
+   "status": "ready",
+   "youtube_song": "0ezrigxpjtc",
+   "youtube": "7OQZwuE3BZY"
+  },
+  {
+   "n": 21,
+   "story": "Ten Thankful Friends",
+   "passage": "Luke 17:11-19",
+   "status": "ready",
+   "youtube": "QXDuGfbwiWI",
+   "youtube_song": "40I7UswO25k"
+  },
+  {
+   "n": 22,
+   "story": "Jesus Walks on Water",
+   "passage": "Matthew 14:22-33",
+   "status": "prepped",
+   "song": "Keep My Eyes on Jesus",
+   "memory_line": "I keep my eyes on Jesus!",
+   "folder": "episodes/22-jesus-walks-on-water"
+  },
+  {
+   "n": 23,
+   "story": "The Birth of Jesus",
+   "passage": "Luke 2:1-20",
+   "song": "Jesus Is Born",
+   "memory_line": "Jesus is born, God sent His love!",
+   "status": "prepped",
+   "season": "christmas",
+   "target_publish": "Dec 10"
+  }
+ ],
+ "seasonal": [
+  {
+   "story": "The Birth of Jesus",
+   "passage": "Luke 2:1-20",
+   "window": "Dec 10 - Dec 24"
+  },
+  {
+   "story": "Jesus Is Alive! (Easter)",
+   "passage": "Luke 24:1-12",
+   "window": "Holy Week"
+  }
+ ],
+ "songs_playlist": "Eliora Sing-Along Songs",
+ "stories_playlist": "Eliora Bible Stories with Songs"
 }

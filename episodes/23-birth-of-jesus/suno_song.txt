@@ -1,0 +1,3 @@
+SUNO SONG (Custom, vocal, ~2:00):
+Style: warm gentle children's Christmas song, acoustic guitar and soft piano with light sleigh-bell and glockenspiel sparkle, sweet clear female vocal with a small kids' choir joining the chorus, easy sing-along, moderate tempo (about 100 bpm), joyful but tender, not bouncy, no electric guitar or drums.
+Lyrics: paste lyrics.txt (keep the [Verse]/[Chorus] tags).
