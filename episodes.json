@@ -316,33 +316,31 @@
   },
   {
    "n": 33,
-   "story": "Joseph's Dream",
-   "passage": "Matthew 1:18-25",
-   "song": "God With Us",
-   "memory_line": "Jesus is Immanuel, God with us!",
+   "story": "Jesus Rides Into Jerusalem",
+   "passage": "Matthew 21:1-11",
+   "song": "Hosanna, Hosanna",
+   "memory_line": "Hosanna! Jesus is our gentle King!",
    "status": "prepped",
-   "season": "advent",
-   "target_publish": "Dec 6"
+   "season": "palm-sunday",
+   "target_publish": "Mar 29"
   },
   {
    "n": 34,
-   "story": "Joseph's Dream",
-   "passage": "Matthew 1:18-25",
-   "song": "God With Us",
-   "memory_line": "Jesus is Immanuel, God with us!",
-   "status": "prepped",
-   "season": "advent",
-   "target_publish": "Dec 6"
+   "story": "The Four Friends and the Roof",
+   "passage": "Mark 2:1-12",
+   "song": "Bring Them to Jesus",
+   "memory_line": "Bring them to Jesus, He is kind and near!",
+   "status": "prepped"
   },
   {
    "n": 35,
-   "story": "Joseph's Dream",
-   "passage": "Matthew 1:18-25",
-   "song": "God With Us",
-   "memory_line": "Jesus is Immanuel, God with us!",
+   "story": "He Is Alive (Easter)",
+   "passage": "John 20:1-18",
+   "song": "He Is Alive",
+   "memory_line": "Jesus is alive!",
    "status": "prepped",
-   "season": "advent",
-   "target_publish": "Dec 6"
+   "season": "easter",
+   "target_publish": "Apr 5"
   }
  ],
  "seasonal": [
