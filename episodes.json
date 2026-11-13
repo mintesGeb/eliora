@@ -113,7 +113,7 @@
    "folder": "episodes/11-joseph-and-his-coat",
    "youtube": "https://youtu.be/XxPcCABNsHQ",
    "youtube_song": "https://youtu.be/hEVZJjnmCJg",
-   "youtube_title": "Joseph and His Coat \ud83e\udde5 Bible Story for Kids with Song | God Is With Me | Eliora"
+   "youtube_title": "Joseph and His Coat 🧥 Bible Story for Kids with Song | God Is With Me | Eliora"
   },
   {
    "n": 12,
@@ -125,7 +125,7 @@
    "folder": "episodes/12-ruth-and-naomi",
    "youtube": "https://youtu.be/Dqpk9eXUvoM",
    "youtube_song": "https://youtu.be/yfoo2v0LEPI",
-   "youtube_title": "Ruth and Naomi \ud83d\udc9b Bible Story for Kids with Song | God Never Leaves Me | Eliora"
+   "youtube_title": "Ruth and Naomi 💛 Bible Story for Kids with Song | God Never Leaves Me | Eliora"
   },
   {
    "n": 13,
@@ -244,9 +244,11 @@
    "passage": "Luke 1:26-45",
    "song": "Yes, Mary Said Yes",
    "memory_line": "Nothing is too hard for God!",
-   "status": "prepped",
+   "status": "built-private",
    "season": "advent",
-   "target_publish": "Dec 3"
+   "target_publish": "Dec 3",
+   "story_id": "bmUmVQSW7H8",
+   "song_id": "gmdorQrx1is"
   },
   {
    "n": 26,
