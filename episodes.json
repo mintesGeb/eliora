@@ -341,6 +341,22 @@
    "status": "prepped",
    "season": "easter",
    "target_publish": "Apr 5"
+  },
+  {
+   "n": 36,
+   "story": "Jesus Calls the Fishermen",
+   "passage": "Luke 5:1-11",
+   "song": "Follow Me",
+   "memory_line": "Jesus says, Follow Me!",
+   "status": "prepped"
+  },
+  {
+   "n": 37,
+   "story": "The Wedding at Cana",
+   "passage": "John 2:1-11",
+   "song": "Do Whatever He Says",
+   "memory_line": "Do whatever Jesus says!",
+   "status": "prepped"
   }
  ],
  "seasonal": [
