@@ -113,7 +113,7 @@
    "folder": "episodes/11-joseph-and-his-coat",
    "youtube": "https://youtu.be/XxPcCABNsHQ",
    "youtube_song": "https://youtu.be/hEVZJjnmCJg",
-   "youtube_title": "Joseph and His Coat 🧥 Bible Story for Kids with Song | God Is With Me | Eliora"
+   "youtube_title": "Joseph and His Coat \ud83e\udde5 Bible Story for Kids with Song | God Is With Me | Eliora"
   },
   {
    "n": 12,
@@ -125,7 +125,7 @@
    "folder": "episodes/12-ruth-and-naomi",
    "youtube": "https://youtu.be/Dqpk9eXUvoM",
    "youtube_song": "https://youtu.be/yfoo2v0LEPI",
-   "youtube_title": "Ruth and Naomi 💛 Bible Story for Kids with Song | God Never Leaves Me | Eliora"
+   "youtube_title": "Ruth and Naomi \ud83d\udc9b Bible Story for Kids with Song | God Never Leaves Me | Eliora"
   },
   {
    "n": 13,
@@ -256,9 +256,11 @@
    "passage": "Matthew 2:1-12",
    "song": "Follow the Star",
    "memory_line": "Jesus is the best gift of all!",
-   "status": "prepped",
+   "status": "built-private",
    "season": "christmas",
-   "target_publish": "Dec 17"
+   "target_publish": "Dec 17",
+   "story_id": "5pDDPNpGvN8",
+   "song_id": "hjd4Q-CNRMo"
   },
   {
    "n": 27,
