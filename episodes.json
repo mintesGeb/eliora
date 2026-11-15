@@ -373,6 +373,18 @@
       "song": "Do Whatever He Says",
       "memory_line": "Do whatever Jesus says!",
       "status": "prepped"
+    },
+    {
+      "n": 38,
+      "story": "Jairus' Little Girl",
+      "passage": "Mark 5:21-24, 35-43",
+      "song": "Do Not Be Afraid",
+      "memory_line": "Do not be afraid, only believe!",
+      "status": "prepped",
+      "season": "ordinary",
+      "target_publish": null,
+      "story_id": null,
+      "song_id": null
     }
   ],
   "seasonal": [
