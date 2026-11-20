@@ -113,7 +113,7 @@
    "folder": "episodes/11-joseph-and-his-coat",
    "youtube": "https://youtu.be/XxPcCABNsHQ",
    "youtube_song": "https://youtu.be/hEVZJjnmCJg",
-   "youtube_title": "Joseph and His Coat \ud83e\udde5 Bible Story for Kids with Song | God Is With Me | Eliora"
+   "youtube_title": "Joseph and His Coat 🧥 Bible Story for Kids with Song | God Is With Me | Eliora"
   },
   {
    "n": 12,
@@ -125,7 +125,7 @@
    "folder": "episodes/12-ruth-and-naomi",
    "youtube": "https://youtu.be/Dqpk9eXUvoM",
    "youtube_song": "https://youtu.be/yfoo2v0LEPI",
-   "youtube_title": "Ruth and Naomi \ud83d\udc9b Bible Story for Kids with Song | God Never Leaves Me | Eliora"
+   "youtube_title": "Ruth and Naomi 💛 Bible Story for Kids with Song | God Never Leaves Me | Eliora"
   },
   {
    "n": 13,
@@ -429,6 +429,38 @@
    "memory_line": "God's Word grows in me!",
    "status": "prepped",
    "season": "general"
+  },
+  {
+   "n": 43,
+   "story": "The Wise and Foolish Builders",
+   "passage": "Matthew 7:24-27",
+   "song": "Build on the Rock",
+   "memory_line": "I build my life on Jesus!",
+   "status": "prepped"
+  },
+  {
+   "n": 44,
+   "story": "The Lost Coin",
+   "passage": "Luke 15:8-10",
+   "song": "Found!",
+   "memory_line": "God finds me and loves me!",
+   "status": "prepped"
+  },
+  {
+   "n": 45,
+   "story": "The Woman Who Touched His Cloak",
+   "passage": "Mark 5:25-34",
+   "song": "Just One Touch",
+   "memory_line": "Jesus loves to help me!",
+   "status": "prepped"
+  },
+  {
+   "n": 46,
+   "story": "The Widow's Two Coins",
+   "passage": "Mark 12:41-44",
+   "song": "Give with a Happy Heart",
+   "memory_line": "I give with a happy heart!",
+   "status": "prepped"
   }
  ],
  "seasonal": [
